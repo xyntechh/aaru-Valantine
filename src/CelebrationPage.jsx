@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Heart, Music, Volume2, VolumeX, Sparkles } from "lucide-react";
-import song from "./assets/Tereishq.m4a";
+import song from "./assets/daroon.m4a";
 
 export default function CelebrationPage({ crushName }) {
   const [fallingHearts, setFallingHearts] = useState([]);
